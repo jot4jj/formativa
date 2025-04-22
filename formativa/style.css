@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #40A3F8;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.header ul li{
+    display: inline-flex;
+    justify-content: space-evenly;
+    margin-left: 10vw;
+    cursor: pointer;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    color: black;
+}
+
+.content .text{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    letter-spacing: 1px;
+    color: #16202C;
+}
+
+.content h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.content p{
+    width: 40vw;
+}
+
+.content .buttons{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.content .buttons button{
+    cursor: pointer;
+    width: 100%;
+}
+
+#btn{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #40A3F8;
+    color: white;
+    letter-spacing: 1px;
+    border: none;
+}
+
+#btn2{
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #40A3F8;
+    letter-spacing: 1px;
+    border: none;
+}
+
+.content img{
+    width: 50vw;
+}
+
+.content2{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 5vw;
+}
+
+.content2 .itens{
+    width: 20vw;
+    height: 10vw;
+    background-color: #e3e3e3;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+    background-color: #e3e3e3;
+    color: black;
+    letter-spacing: 1px;
+}
+
+.footer div{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20vw;
+}
+
+.footer ul li{
+    list-style: none;
+}
+
+.footer ul li a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
